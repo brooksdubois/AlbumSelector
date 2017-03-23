@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE4A25E11E8424C7001D6CA1 /* AlbumDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A25E01E8424C7001D6CA1 /* AlbumDetailViewController.swift */; };
+		CE4A25E31E842571001D6CA1 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A25E21E842571001D6CA1 /* Album.swift */; };
+		CE4A25E81E842FF4001D6CA1 /* AlbumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4A25E71E842FF4001D6CA1 /* AlbumTableViewCell.swift */; };
 		CEAFAB5F1E82C832007A9395 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFAB5E1E82C832007A9395 /* AppDelegate.swift */; };
 		CEAFAB611E82C832007A9395 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFAB601E82C832007A9395 /* ViewController.swift */; };
 		CEAFAB641E82C832007A9395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAFAB621E82C832007A9395 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE4A25E01E8424C7001D6CA1 /* AlbumDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlbumDetailViewController.swift; path = ../AlbumDetailViewController.swift; sourceTree = "<group>"; };
+		CE4A25E21E842571001D6CA1 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		CE4A25E71E842FF4001D6CA1 /* AlbumTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumTableViewCell.swift; sourceTree = "<group>"; };
 		CEAFAB5B1E82C832007A9395 /* AlbumStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlbumStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAFAB5E1E82C832007A9395 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEAFAB601E82C832007A9395 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +43,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE4A25E41E84260B001D6CA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE4A25E21E842571001D6CA1 /* Album.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CE4A25E51E842615001D6CA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE4A25E71E842FF4001D6CA1 /* AlbumTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CE4A25E61E84261C001D6CA1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEAFAB5E1E82C832007A9395 /* AppDelegate.swift */,
+				CEAFAB601E82C832007A9395 /* ViewController.swift */,
+				CE4A25E01E8424C7001D6CA1 /* AlbumDetailViewController.swift */,
+				CEAFAB701E82D20A007A9395 /* AddAlbumViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		CEAFAB521E82C832007A9395 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +89,13 @@
 		CEAFAB5D1E82C832007A9395 /* AlbumStore */ = {
 			isa = PBXGroup;
 			children = (
-				CEAFAB5E1E82C832007A9395 /* AppDelegate.swift */,
-				CEAFAB601E82C832007A9395 /* ViewController.swift */,
+				CE4A25E61E84261C001D6CA1 /* Controller */,
+				CE4A25E51E842615001D6CA1 /* View */,
+				CE4A25E41E84260B001D6CA1 /* Model */,
 				CEAFAB621E82C832007A9395 /* Main.storyboard */,
 				CEAFAB651E82C832007A9395 /* Assets.xcassets */,
 				CEAFAB671E82C832007A9395 /* LaunchScreen.storyboard */,
 				CEAFAB6A1E82C832007A9395 /* Info.plist */,
-				CEAFAB701E82D20A007A9395 /* AddAlbumViewController.swift */,
 			);
 			path = AlbumStore;
 			sourceTree = "<group>";
@@ -140,8 +173,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEAFAB711E82D20A007A9395 /* AddAlbumViewController.swift in Sources */,
+				CE4A25E11E8424C7001D6CA1 /* AlbumDetailViewController.swift in Sources */,
 				CEAFAB611E82C832007A9395 /* ViewController.swift in Sources */,
 				CEAFAB5F1E82C832007A9395 /* AppDelegate.swift in Sources */,
+				CE4A25E31E842571001D6CA1 /* Album.swift in Sources */,
+				CE4A25E81E842FF4001D6CA1 /* AlbumTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +337,7 @@
 				CEAFAB6F1E82C832007A9395 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
