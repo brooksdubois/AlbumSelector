@@ -12,6 +12,7 @@
 		CEAFAB641E82C832007A9395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAFAB621E82C832007A9395 /* Main.storyboard */; };
 		CEAFAB661E82C832007A9395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEAFAB651E82C832007A9395 /* Assets.xcassets */; };
 		CEAFAB691E82C832007A9395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEAFAB671E82C832007A9395 /* LaunchScreen.storyboard */; };
+		CEAFAB711E82D20A007A9395 /* AddAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAFAB701E82D20A007A9395 /* AddAlbumViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CEAFAB651E82C832007A9395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEAFAB681E82C832007A9395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEAFAB6A1E82C832007A9395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEAFAB701E82D20A007A9395 /* AddAlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAlbumViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				CEAFAB651E82C832007A9395 /* Assets.xcassets */,
 				CEAFAB671E82C832007A9395 /* LaunchScreen.storyboard */,
 				CEAFAB6A1E82C832007A9395 /* Info.plist */,
+				CEAFAB701E82D20A007A9395 /* AddAlbumViewController.swift */,
 			);
 			path = AlbumStore;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAFAB711E82D20A007A9395 /* AddAlbumViewController.swift in Sources */,
 				CEAFAB611E82C832007A9395 /* ViewController.swift in Sources */,
 				CEAFAB5F1E82C832007A9395 /* AppDelegate.swift in Sources */,
 			);
